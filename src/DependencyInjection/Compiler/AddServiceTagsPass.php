@@ -12,7 +12,7 @@ final class AddServiceTagsPass implements CompilerPassInterface
 {
     public function process(ContainerBuilder $container): void
     {
-        if ($container->has('setono_sylius_pagination.event_listener.add_pagination_links') === false) {
+        if (!$container->has('setono_sylius_pagination.event_listener.add_pagination_links')) {
             return;
         }
 
