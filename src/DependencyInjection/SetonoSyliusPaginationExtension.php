@@ -20,6 +20,8 @@ final class SetonoSyliusPaginationExtension extends Extension
         $loader = new XmlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
 
         $container->setParameter('setono_sylius_pagination.page_parameter', $config['page_parameter']);
+        $container->setParameter('setono_sylius_pagination.events', $config['events']);
+        $container->setParameter('setono_sylius_pagination.listen_to_resources', $config['listen_to_resources']);
 
         $loader->load('services.xml');
     }

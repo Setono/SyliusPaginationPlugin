@@ -25,12 +25,17 @@ final class Configuration implements ConfigurationInterface
 
         $rootNode
             ->addDefaultsIfNotSet()
+            ->fixXmlConfig('event')
             ->children()
                 ->scalarNode('page_parameter')
                     ->defaultValue('page')
                     ->cannotBeEmpty()
                     ->info('The query parameter indicating af pagination')
                     ->example('page')
+                ->end()
+                ->booleanNode('listen_to_resources')->defaultTrue()->end()
+                ->arrayNode('events')
+                    ->scalarPrototype()->end()
                 ->end()
             ->end()
         ;
