@@ -38,11 +38,11 @@ return [
 ];
 ```
 
-[ico-version]: https://img.shields.io/packagist/v/loevgaard/sylius-pagination-plugin.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/setono/sylius-pagination-plugin.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://travis-ci.com/Setono/SyliusPaginationPlugin.svg?branch=master
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/loevgaard/SyliusPaginationPlugin.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/Setono/SyliusPaginationPlugin.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/loevgaard/sylius-pagination-plugin
-[link-travis]: https://travis-ci.com/loevgaard/SyliusPaginationPlugin
-[link-code-quality]: https://scrutinizer-ci.com/g/loevgaard/SyliusPaginationPlugin
+[link-packagist]: https://packagist.org/packages/setono/sylius-pagination-plugin
+[link-travis]: https://travis-ci.com/Setono/SyliusPaginationPlugin
+[link-code-quality]: https://scrutinizer-ci.com/g/Setono/SyliusPaginationPlugin
